@@ -7,6 +7,8 @@ module.exports = {
     extend: {
       fontFamily : {
         'inknut-antiqua': ['"Inknut Antiqua"', 'serif'],
+        'cormorant': ['"Cormorant"', 'serif'],
+        'zhi-mang-xing': ['"Zhi Mang Xing"', 'cursive']
       }
     },
   },
