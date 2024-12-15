@@ -1,0 +1,23 @@
+<div class="products-section">
+  <a [routerLink]="['/home-page']">
+    <div class="return-home pb-4 sm:pb-0 self">
+      <img src="/images/hellokitty.gif" alt="return icon" class="return-icon w-24 h-auto ml-10">
+    </div>
+  </a>
+  <div class="products">
+    <h1 class="title">🛍️ Sanrio Retro Shop 🛍️</h1>
+    <p class="subtitle">Explore our colorful collection of Sanrio products!</p>
+
+    <div class="products-grid">
+      <div class="product-card" *ngFor="let product of products">
+        <div class="card-header">
+          <img [src]="product.image" [alt]="product.name" class="product-image">
+        </div>
+        <div class="card-body">
+          <h2 class="product-name">{{ product.name }}</h2>
+          <p class="product-price">{{ product.price }} {{ product.fabric }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
