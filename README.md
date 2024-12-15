@@ -1,4 +1,22 @@
-# RetroSanrio
+# 🌸 Sanrio '90s Retro Web App 🌸
+
+Welcome to the **Sanrio '90s Retro Web App**! 🚀 This project was built during a hackathon with the goal of recreating the vibrant, nostalgic vibes of the 1990s Sanrio universe using **Angular**. Expect lots of pastel colors, adorable characters, and fun animated GIFs! ✨
+
+---
+
+## 🎨 Features
+- **'90s Sanrio theme:** Pastel aesthetics and all your favorite characters like Hello Kitty, Keroppi, and Badtz-Maru.  
+- **Interactive Design:** Experience modern web functionality with retro vibes!  
+- **Tons of GIFs:** Because who doesn’t love a good animated throwback?  
+
+---
+
+## 🛠️ Tech Stack
+- **Framework:** Angular  
+- **Styling:** Tailwind CSS for that pixel-perfect retro aesthetic  
+- **GIFs:** Handpicked retro-themed animations to keep the '90s alive  
+
+---
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.5.
 
@@ -57,3 +75,6 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+---
+✨ "Stay retro, stay kawaii!" 🌈
