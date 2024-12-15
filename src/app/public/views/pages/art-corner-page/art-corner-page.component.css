@@ -1,0 +1,18 @@
+body {
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://cdn5.dibujos.net/dibujos/pintados/201937/pincel-y-pintura-colegio-11630740.jpg');
+  background-repeat: repeat;
+  background-size: 5%;
+  background-position: top left;
+  opacity: 0.5; /* Ajusta este valor para cambiar la opacidad */
+  z-index: -1;
+}

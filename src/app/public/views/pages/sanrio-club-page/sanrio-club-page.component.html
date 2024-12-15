@@ -1,0 +1,30 @@
+<body>
+  <br>
+  <a [routerLink]="['/home-page']">
+    <div class="pb-4 sm:pb-0">
+      <img src="/images/hellokitty.gif" alt="return icon" class="return-icon w-24 h-auto ml-10">
+    </div>
+  </a>
+  <br>
+  <div class="ml-10">
+    <img src="/images/club-sanrio-logo.png" alt="Sanrio Club banner" class="club-banner">
+  </div>
+  <div class="flex flex-row items-center justify-center gap-24">
+    <div class="join-text mt-6">
+      <h1 class="font-zhi-mang-xing">Join our club!</h1>
+    </div>
+    <div class="flex flex-col items-center justify-center gap-6">
+      <a [routerLink]="['/sanrio-club-signup']">
+        <img src="/images/move_flower.gif" alt="Flower icon 1">
+        <p class="font-cormorant text-2xl font-semibold">Signup</p>
+      </a>
+      <a [routerLink]="['/art-corner']" class="flex flex-col items-center justify-center">
+        <img src="/images/move_flower.gif" alt="Flower icon 2">
+        <p class="font-cormorant text-2xl font-semibold">Art Corner</p>
+      </a>
+    </div>
+  </div>
+  <div class="pl-96 pt-10">
+    <img src="/images/sanrio-logo.webp" alt="Characters" class="sanrio-logo">
+  </div>
+</body>

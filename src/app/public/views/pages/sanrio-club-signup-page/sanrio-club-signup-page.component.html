@@ -1,0 +1,41 @@
+<body>
+<br>
+<a [routerLink]="['/sanrio-club']">
+  <div class="pb-4 sm:pb-0">
+    <img src="/images/hellokitty.gif" alt="return icon" class="return-icon w-24 h-auto ml-10">
+  </div>
+</a>
+<br>
+<div class="flex flex-col items-center justify-center">
+  <img src="/images/club-sanrio-logo.png" alt="Sanrio Club banner">
+  <div class="retro-border">
+    <form id="sanrioForm">
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" name="firstName" placeholder="Enter your first name" required>
+
+      <label for="lastName">Last Name:</label>
+      <input type="text" id="lastName" name="lastName" placeholder="Enter your last name" required>
+
+      <label for="country">Country:</label>
+      <input type="text" id="country" name="country" placeholder="Enter your country" required>
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <label for="favoriteCharacter">Favorite Sanrio Character:</label>
+      <select id="favoriteCharacter" name="favoriteCharacter" required>
+        <option value="" disabled selected>Select your favorite character</option>
+        <option value="Hello Kitty">Hello Kitty</option>
+        <option value="My Melody">My Melody</option>
+        <option value="Keroppi">Keroppi</option>
+        <option value="Badtz-Maru">Badtz-Maru</option>
+        <option value="Cinnamoroll">Cinnamoroll</option>
+        <option value="Kuromi">Kuromi</option>
+        <option value="Pompompurin">Pompompurin</option>
+      </select>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</div>
+</body>

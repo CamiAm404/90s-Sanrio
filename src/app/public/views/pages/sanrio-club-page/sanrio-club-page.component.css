@@ -1,0 +1,22 @@
+body {
+  background-image: url('https://i.imgur.com/kYqjGWs.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+  width: 100vw;
+  height: 100vh;
+}
+
+.club-banner {
+  width: 470px;
+  height: auto;
+}
+
+.join-text {
+  font-size: 80px;
+}
+
+.sanrio-logo {
+  width: 700px;
+  height: auto;
+}
