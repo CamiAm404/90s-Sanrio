@@ -9,9 +9,10 @@ import {
 } from './public/views/pages/sanrio-club-signup-page/sanrio-club-signup-page.component';
 import {ArtCornerPageComponent} from './public/views/pages/art-corner-page/art-corner-page.component';
 import {ProductsPageComponent} from './public/views/pages/products-page/products-page.component';
+import {WelcomePageComponent} from './public/views/pages/welcome-page/welcome-page.component';
 
 export const routes: Routes = [
-  {path: '', redirectTo: '/home-page', pathMatch: 'full'},
+  {path: '', redirectTo: '/welcome', pathMatch: 'full'},
   {path: 'home-page', component: HomePageComponent},
   {path: 'characters', component: CharactersPageComponent},
   {path: 'drawings', component: DrawingsPageComponent},
@@ -19,6 +20,7 @@ export const routes: Routes = [
   {path: 'sanrio-club', component: SanrioClubPageComponent},
   {path: 'sanrio-club-signup', component: SanrioClubSignupPageComponent},
   {path: 'art-corner', component: ArtCornerPageComponent},
-  {path: 'products', component: ProductsPageComponent}
-  // {path: '**', component: PageNotFoundComponent}
+  {path: 'products', component: ProductsPageComponent},
+  {path: 'welcome', component: WelcomePageComponent},
+  {path: '**', component: WelcomePageComponent}
 ];

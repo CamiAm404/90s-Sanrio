@@ -1,0 +1,11 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F8D4E1;
+  background-size: auto;
+  background-position: top left;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
