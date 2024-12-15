@@ -7,8 +7,15 @@ body {
 
 .sanrio-gif-list {
   background-color: #FFD8F8;
+  max-width: 1150px;
 }
 
 .maru-gif-1 {
   width: 450px;
+}
+
+@media (max-width: 768px) {
+  .sanrio-gif-list {
+    max-width: 800px;
+  }
 }
