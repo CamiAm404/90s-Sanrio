@@ -14,3 +14,21 @@ body {
   height: 670px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
+
+@media (max-width: 1536px) {
+  .title {
+    width: 680px;
+    height: 370px;
+  }
+
+  body {
+    width: auto;
+    height: auto;
+  }
+}
+
+@media (max-width: 1024px) {
+  .title {
+    width: 480px;
+  }
+}
